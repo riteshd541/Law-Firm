@@ -71,7 +71,7 @@ const Controls = ({ data }) => {
 
   useEffect(() => {
     swiper.slideTo(0, null);
-  }, [data]);
+  });
 };
 
 const Carousel = () => {
