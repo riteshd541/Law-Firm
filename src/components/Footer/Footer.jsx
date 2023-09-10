@@ -26,7 +26,7 @@ const Footer = () => {
         {/* Menu Links */}
         <ul className="footer__menu">
           {footerLinks.map(({ id, label }) => (
-            <li id={id}>
+            <li key={id}>
               <a href={`#${id}`} title={label}>
                 {label}
               </a>

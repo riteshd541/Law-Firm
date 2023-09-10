@@ -3,6 +3,10 @@
   border: 1px solid red;
 } */
 
+.button-colors {
+  color: #fff;
+}
+
 .accordions__container {
   width: 38.8125rem;
 

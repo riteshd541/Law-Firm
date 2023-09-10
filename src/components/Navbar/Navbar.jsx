@@ -28,7 +28,7 @@ const Navbar = () => {
       {/* Menu Links */}
       <ul className="nav__menu">
         {navBarLinks.map(({ id, label }) => (
-          <li id={id}>
+          <li key={id}>
             <a href={`#${id}`} title={label}>
               {label}
             </a>
@@ -55,7 +55,7 @@ const Navbar = () => {
             {/*  */}
             <ul className="nav__menu-moblie-links">
               {navBarLinks.map(({ id, label }) => (
-                <li id={id}>
+                <li key={id}>
                   <a href={`#${id}`} title={label}>
                     {label}
                   </a>
